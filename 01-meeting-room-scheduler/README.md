@@ -1,4 +1,4 @@
-# Day 1 — Meeting Room Scheduler (Amazon SDE-2 LLD, 30 min)
+# Day 1 — Meeting Room Scheduler 
 
 This folder is a **study walkthrough**, not a finished product dump.  
 Read the notes in order. Code appears only after the idea is explained.
