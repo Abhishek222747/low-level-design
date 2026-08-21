@@ -3,11 +3,13 @@
 *.jar
 *.war
 *.ear
+out/
 
 # IDE
 .idea/
 *.iml
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .cursor/
 
 # OS

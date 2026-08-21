@@ -1,9 +1,9 @@
 package scheduler;
 
 /**
- * Run this after compiling:
- *   javac src/scheduler/*.java
- *   java -cp src scheduler.Step1Demo
+ * Run this after compiling (output goes to out/, not next to .java files):
+ *   javac -d out src/scheduler/*.java
+ *   java -cp out scheduler.Step1Demo
  *
  * We use small numbers instead of real clock times so the overlap math is obvious.
  * Think of them as "hour 10", "hour 11", etc.
