@@ -34,4 +34,17 @@ If you skip clarification and jump to classes, you look junior. If you design Ka
 
 Everything else (capacity, floor, projector, recurring meetings) is a **layer on top** of that sentence.
 
-In the next files we implement that sentence first, then grow.
+| Step | What we add | Why |
+|------|-------------|-----|
+| 1 | `TimeRange` | One definition of overlap |
+| 2 | `Room`, `Meeting` | Entities and ownership |
+| 3 | `MeetingScheduler` | Per-room `TreeMap`, book / cancel / find |
+
+Walk `NOTES.md` in order. Compile into `out/` so `.class` files never sit beside source:
+
+```
+javac -d out src/scheduler/*.java
+java -cp out scheduler.Step1Demo
+java -cp out scheduler.Step2Demo
+java -cp out scheduler.Step3Demo
+```
